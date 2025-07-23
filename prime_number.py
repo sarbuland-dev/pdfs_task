@@ -1,6 +1,6 @@
 def prime(ending):
     
-    for i in range(2,ending+1):
+    for i in range(1,ending+1):
         count=0
         for j in range(1,i+1):
             if i%j==0:
